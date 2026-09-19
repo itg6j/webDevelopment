@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c7e8f3;
+}
+header div{
+    display: flex;
+    align-items: flex-end;
+    margin: 30px 0px 30px 0px;
+}
+header div a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :20px;
+    margin: 30px 0px 30px 0px;
+}
+header nav a {
+    color: #8E4162;
+    font-weight: bold;
+    background-color: #bf9aca;
+    padding :10px;
+    border-radius: 30%;
+    border: 2px solid #000;
+    text-decoration: none;
+
+}
+#last{
+    margin-right: 20px;
+}
+#helloworld{
+    background-color: #8e4162;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 855px;
+}
+#header-helloworld{
+    color: #fff;
+    font-size: 70px;
+}
+
+#p-helloworld{
+    margin-top: 20px;
+    color: #c7e8f3;
+    font-size: 20px;
+}
+#divone-helloworld{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 30px;
+    gap: 20px;           
+    justify-content: center;
+    align-items: center;
+}
+.pindiv{
+    background-color: #C7E8F3;
+    padding : 20px;
+    border-radius: 35%;
+    border: 2px solid #000;
+    cursor: pointer;
+}
