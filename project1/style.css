@@ -73,3 +73,51 @@ header nav a {
     border: 2px solid #000;
     cursor: pointer;
 }
+#card{
+    height:855px;
+    background-color:#bf9aca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.divcard{
+    box-shadow: 4px 4px 2px #8E4162;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 40px 20px;
+    background-color: #C7E8F3;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+.h2card{
+    color: #000;
+    padding-bottom: 30px;
+}
+.pcard{
+    text-align: center;
+    font-size: 16px;
+}
+footer{
+    height: 400px;
+    background-color: #8E4162;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer div h2{
+    color: #fff;
+
+}
+footer div a{
+    color: #c7e8f3;
+    text-align: center;
+}
